@@ -1,5 +1,13 @@
 #include <stdio.h>
 #include <conio.h>
+
+void add()
+{
+    int x,y;
+    printf("\nEnter two numbers:\n");
+    scanf("%d%d", &x, &y);
+    printf("The sum of the numbers is: %d.\n\n", x + y);
+}
 void main()
 {
     int a, b, c;
@@ -11,9 +19,7 @@ void main()
         switch (c)
         {
         case 1:
-            printf("\nEnter two numbers:\n");
-            scanf("%d%d", &a, &b);
-            printf("The sum of the numbers is: %d.\n\n", a + b);
+            add();
             break;
         case 2:
             printf("\nEnter two numbers:\n");
