@@ -1,9 +1,11 @@
 main(){
     printf("Program to find length of Entered String.\n");
     
+    //char s[]; #error = this method is not allowed.
+
     char s[1000];
 
-    scanf("\nEnter the String to Check: %s", s);
+    scanf("%s", s);
 
     // for(int i=0; s[i]!='\0'; i++);
 
