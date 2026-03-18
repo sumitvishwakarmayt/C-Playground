@@ -18,4 +18,6 @@ main()
 
     revString[i] = '\0';
     printf("Reversed String is %s", revString);
+
+    getch();
 }
