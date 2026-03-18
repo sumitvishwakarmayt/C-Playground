@@ -9,7 +9,9 @@ main()
     char revString[100];
     int i;
 
-    for (i = 0; i < strlen(s); i++)
+    int len= strlen(s); // recommended to store length out of loop for loop efficiency otherwise loop calculates strlen everytime it runs.
+
+    for (i = 0; i<len; i++)
     {
         revString[i] = s[strlen(s)-1 - i];
     }
