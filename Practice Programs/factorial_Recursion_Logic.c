@@ -1,0 +1,3 @@
+main(){
+    // Factorial using Recursion.
+}
