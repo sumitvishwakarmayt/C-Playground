@@ -1,0 +1,3 @@
+main(){
+    // Memory Allocation Program
+}
